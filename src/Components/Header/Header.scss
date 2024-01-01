@@ -1,0 +1,37 @@
+.header{
+  padding: 40px 0;
+  &-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-nav {
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 60px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0 10px;
+        a {
+          text-decoration: none;
+          color: #2C2C2C;
+          font-size: 18px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  &-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    &-btn{
+      background: transparent;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}

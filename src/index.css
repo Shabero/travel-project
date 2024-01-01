@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;500;600;700;800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Serif', serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+}
